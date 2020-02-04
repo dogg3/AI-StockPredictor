@@ -1,8 +1,8 @@
 # AI-StockPredictor
 
-AI-StockPredictor is an attempt to predict the stockmarket (S&P 500) with machine learning. A full 
+AI-StockPredictor is an attempt to predict the stockmarket (S&P 500) with machine learning.
 
-The dataset used was found on ‘Kaggle’. It is called “S&P 500 companies historical prices with fundamental data” and is posted by Dominik Gawlik, student at AGH, Krakow, Poland. 
+The dataset used was found on ‘Kaggle’. (https://www.kaggle.com/dgawlik/nyse) It is called “S&P 500 companies historical prices with fundamental data” and is posted by Dominik Gawlik, student at AGH, Krakow, Poland. 
 The dataset consists of 4 different subsets. These are ‘prices.csv’, ‘prices-split-adjusted.csv’, ‘sequrities.csv’ and ‘fundamentals.csv’. The subsets we are concerned with are the ‘fundamentals.csv’ and ‘prices-split-adjusted.csv’. The fundamentals set is extracted from annual SEC 10K filings (2012-2016) and each entry has: the company ticker symbol, year and 76 key metrics such as gross margin, cash ratio and so on. The prices-split-adjusted entries are a company's daily prices adjusted for splits. Each entry consists of a date, ticker symbol, opening price, closing price, lowest price, highest price and the price volume. The entries In both subsets, except ‘ticker symbol’ and ‘date’, are continuous. 
 
 ## Year on Year price change
